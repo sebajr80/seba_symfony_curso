@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Complete los datos de Usuario</h1>
+    <h1> El usuario logueado es: {{ usuariologueado }}  </h1> 
+    <form action="" method="POST">
+        <table>
+         <tr> 
+            <td>Usuario:</td><td><input id="usuario" name="usuario"></td>
+         </tr>
+         <tr> 
+            <td>Clave:</td><td><input id="clave" name="clave"></td>
+         </tr>
+    </table>
+    <input type="submit" value="ENVIAR">
+        </form>
+
+      
+{% endblock %}
